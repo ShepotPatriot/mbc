@@ -209,7 +209,7 @@ button {
      -moz-appearance: none;
           appearance: none;
   border: 0;
-  border-radius: 3px;
+  border-radius: 10px;
   background: transparent;
   line-height: 1;
   cursor: auto; }
@@ -263,7 +263,7 @@ textarea {
   margin: 0 0 1rem 0;
   padding: 0.85em 1em;
   border: 1px solid transparent;
-  border-radius: 3px;
+  border-radius: 20px;
   -webkit-transition: background-color 0.25s ease-out, color 0.25s ease-out;
   transition: background-color 0.25s ease-out, color 0.25s ease-out;
   font-family: inherit;
@@ -272,7 +272,7 @@ textarea {
   line-height: 1;
   text-align: center;
   cursor: pointer;
-  background-color: #2ba6cb;
+  background-color: #79b316;
   color: #fefefe; }
   [data-whatinput='mouse'] .button {
     outline: 0; }
@@ -3518,4 +3518,18 @@ a.thumbnail {
 
 .text-center {
   text-align: center;
+}
+
+.links {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  float: left;
+}
+
+.ul__links {
+  text-align: center;
+  list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
 }
